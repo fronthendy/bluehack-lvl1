@@ -3,7 +3,7 @@
 	<head>
 		<!-- Metadados -->
 		<meta charset="utf-8"/>
-		<title>BEMO - Mapa de Alimentos oferecidos</title>
+		<title>BEMO - Cadastro de interessados</title>
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="stylesheets/main.css" type="text/css"/>
@@ -24,8 +24,8 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
 						<li><a href="mapa.php">Mapa de Feiras</a></li>
-						<li class="active"><a href="cadastroFeirante.php">Cadastro de Fornecedor</a></li>
-						<li><a href="cadastroInteressado.php">Cadastro de Interessados</a></li>
+						<li><a href="cadastroFeirante.php">Cadastro de Fornecedor</a></li>
+						<li class="active"><a href="cadastroInteressado.php">Cadastro de Interessados</a></li>
             <li><a href="login.php">Login</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -36,7 +36,7 @@
 		<section class="cadastro-form">
 			<div class="container">
 				<div class="col-xs-12">
-						<h2>Cadastro de Fornecedor</h2>
+						<h2>Cadastro de Interessados</h2>
 				</div>
 				<div class="col-sm-8">
 					<form id="cadastro_feirante" action="#" method="post">
@@ -45,8 +45,8 @@
 							<input type="text" name="nome" class="form-control" value="">
 						</div>
 						<div class="form-group">
-							<label for="cpf_cnpj">CPF/CNPJ</label>
-							<input type="text" name="cpf_cnpj" class="form-control" value="">
+							<label for="endereco">Endereço</label>
+							<input type="text" name="endereco" class="form-control" value="">
 						</div>
 						<div class="form-group">
 							<label for="feira">Feira</label>
@@ -76,15 +76,15 @@
 						<div class="clearfix"></div>
 				</div>
 				<div class="col-sm-4">
-						<p class="desc-form">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-						<ul>
-							<li> Lorem Ipsum dolor sit</li>
-							<li> Lorem Ipsumdolor </li>
-							<li> Lorem Ipsumdolor sit</li>
-							<li> Lorem Ipdolor sit</li>
-						</ul>
+					<p class="desc-form">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<ul>
+						<li> Lorem Ipsum dolor sit</li>
+						<li> Lorem Ipsumdolor </li>
+						<li> Lorem Ipsumdolor sit</li>
+						<li> Lorem Ipdolor sit</li>
+					</ul>
 				</div>
 			</div>
 		</section>

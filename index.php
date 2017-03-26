@@ -11,7 +11,7 @@
 	<body>
 		<header>
 			<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -23,11 +23,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Sobre</a></li>
-						<li><a href="#">Patrocinadores</a></li>
 						<li><a href="mapa.php">Mapa de Feiras</a></li>
-						<li><a href="#">Cadastro</a></li>
-            <li><a href="#">Login</a></li>
+						<li><a href="cadastroFeirante.php">Cadastro de Fornecedor</a></li>
+						<li><a href="cadastroInteressado.php">Cadastro de Interessados</a></li>
+            <li><a href="login.php">Login</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -36,7 +35,6 @@
     </header>
 		<section class="part destaque">
 			<div class="overlay">
-
 			</div>
 			<div class="container">
 				<h1>Lorem ipsum dolor sit amet</h1>

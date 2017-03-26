@@ -3,7 +3,7 @@
 	<head>
 		<!-- Metadados -->
 		<meta charset="utf-8"/>
-		<title>BEMO - Mapa de Alimentos oferecidos</title>
+		<title>BEMO - Login</title>
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="stylesheets/main.css" type="text/css"/>
@@ -26,41 +26,33 @@
 						<li class="active"><a href="mapa.php">Mapa de Feiras</a></li>
 						<li><a href="cadastroFeirante.php">Cadastro de Fornecedor</a></li>
 						<li><a href="cadastroInteressado.php">Cadastro de Interessados</a></li>
-            <li><a href="login.php">Login</a></li>
+            <li class="active"><a href="login.php">Login</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 		<div class="clearfix"></div>
     </header>
-		<section class="mapa">
-			<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-3 col-xs-12">
-							<h3>Mapa de Feiras</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-							<form id="search-map" action="#" method="post">
-								<div class="form-group">
-									<label for="">Buscar por CEP</label>
-									<input type="text" name="cpf" value="" class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="">Buscar por bairro</label>
-									<input type="text" name="cpf" value="" class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="">Buscar por endereço</label>
-									<input type="text" name="cpf" value="" class="form-control">
-								</div>
-								<button type="submit" class="btn btn-primary pull-right">Pesquisar</button>
-							</form>
+		<section class="login">
+			<div class="container">
+				<div class="col-xs-12">
+					<form id="login" action="#" method="post">
+						<h3>Acesse sua conta</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+							 dolore magna aliqua.
+						</p>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" name="email" class="form-control" value="">
 						</div>
-						<div class="col-sm-9 col-xs-12 mapa-iframe">
-							<div class="row">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14626.707154428448!2d-46.6492849!3d-23.580049!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb148aad01b411ba7!2sIBM+Brasil!5e0!3m2!1spt-BR!2sus!4v1490504767543" frameborder="0" style="border:0" allowfullscreen></iframe>
-							</div>
+						<div class="form-group">
+							<label for="senha">Senha</label>
+							<input type="password" name="senha" class="form-control" value="">
 						</div>
-					</div>
+						<button class="btn btn-primary">Entrar</button>
+					</form>
+				</div>
 			</div>
 		</section>
 		<footer>
