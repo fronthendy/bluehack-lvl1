@@ -25,11 +25,18 @@ header{
 						color: #fff;
 						text-transform: uppercase;
 					}
+					a:hover{
+						background-color: transparent !important;
+						color: #6BC280;
+					}
 					&.active{
 						a{
 							background-color: transparent;
 							font-weight: 700;
 							color: #fff;
+							&:hover{
+								color: #6BC280;
+							}
 						}
 					}
 				}
