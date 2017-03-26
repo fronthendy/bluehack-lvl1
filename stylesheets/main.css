@@ -8,50 +8,55 @@ body {
 
 /* line 9, ../sass/main.scss */
 header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
-/* line 11, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 header .navbar-default {
+  position: relative;
   background-color: #497F46;
   border: none;
   padding: 15px 0px;
 }
-/* line 15, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 header .navbar-default .navbar-brand {
   margin: 0;
   padding: 0;
 }
-/* line 18, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 header .navbar-default .navbar-brand img {
   height: 100%;
 }
-/* line 24, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
 header .navbar-default .navbar-nav li a {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 28, ../sass/main.scss */
+/* line 33, ../sass/main.scss */
 header .navbar-default .navbar-nav li a:hover {
   background-color: transparent !important;
   color: #6BC280;
 }
-/* line 33, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 header .navbar-default .navbar-nav li.active a {
   background-color: transparent;
   font-weight: 700;
   color: #fff;
 }
-/* line 37, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 header .navbar-default .navbar-nav li.active a:hover {
   color: #6BC280;
 }
 
-/* line 47, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 .part {
   min-height: 300px;
   background-color: #ccc;
 }
-/* line 50, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 .part.destaque {
   padding: 150px 0;
   text-align: center;
@@ -60,7 +65,7 @@ header .navbar-default .navbar-nav li.active a:hover {
   background-size: cover;
   position: relative;
 }
-/* line 57, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 .part.destaque .overlay {
   position: absolute;
   top: 0;
@@ -71,114 +76,124 @@ header .navbar-default .navbar-nav li.active a:hover {
   opacity: 0.9;
   z-index: 1;
 }
-/* line 67, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 .part.destaque .container {
   position: relative;
   z-index: 2;
   color: #fff;
   text-align: center;
 }
-/* line 73, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 .part.destaque h1 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 55px;
 }
-/* line 78, ../sass/main.scss */
+/* line 83, ../sass/main.scss */
 .part.destaque h3 {
   width: 700px;
   max-width: 100%;
   margin: 15px auto;
 }
-/* line 84, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 .part.sobre {
   padding: 70px 0;
   background-color: #f2f2f2;
 }
-/* line 87, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 .part.sobre h2 {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 30px;
 }
-/* line 93, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 .part.patrocinadores {
   background-color: #f2f2f2;
   padding: 70px 0;
 }
-/* line 96, ../sass/main.scss */
+/* line 101, ../sass/main.scss */
 .part.patrocinadores h2 {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 30px;
 }
-/* line 103, ../sass/main.scss */
+/* line 106, ../sass/main.scss */
+.part.patrocinadores img {
+  margin-bottom: 20px;
+}
+/* line 111, ../sass/main.scss */
 .part.cadastro h3 {
   text-transform: uppercase;
+  font-weight: 600;
 }
-/* line 106, ../sass/main.scss */
+/* line 115, ../sass/main.scss */
 .part.cadastro p {
   width: 300px;
   max-width: 100%;
   margin: 0 auto 20px 0;
 }
-/* line 111, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 .part.cadastro .feirante {
   background-color: #90A88F;
 }
-/* line 113, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 .part.cadastro .feirante .box {
   padding: 80px 25px;
 }
-/* line 115, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 .part.cadastro .feirante .box p {
   text-align: right;
   margin: 0 0 20px auto;
 }
-/* line 122, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 .part.cadastro .interessado .box {
   padding: 80px 15px;
 }
 
-/* line 129, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
 section.mapa iframe {
   width: 100%;
   height: 100vh;
 }
 
-/* line 134, ../sass/main.scss */
+/* line 143, ../sass/main.scss */
 .img-responsive {
   max-width: 100%;
 }
 
-/* line 139, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 .cadastro-form h2 {
   margin-top: 50px;
 }
-/* line 142, ../sass/main.scss */
+/* line 151, ../sass/main.scss */
 .cadastro-form .desc-form {
   margin: 30px 0;
   color: #797979;
 }
-/* line 145, ../sass/main.scss */
+/* line 154, ../sass/main.scss */
 .cadastro-form .desc-form + ul {
   padding: 0 0 0 15px;
 }
-/* line 147, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 .cadastro-form .desc-form + ul li {
   padding: 10px 0;
 }
 
-/* line 153, ../sass/main.scss */
+/* line 162, ../sass/main.scss */
 form {
   padding: 20px 0 30px;
 }
-/* line 155, ../sass/main.scss */
+/* line 164, ../sass/main.scss */
 form input, form select, form textarea, form .form-control {
   border-radius: 0;
 }
 
-/* line 159, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
+.search-map {
+  margin-bottom: 30px;
+}
+
+/* line 171, ../sass/main.scss */
 .btn {
   border-radius: 0;
   padding: 8px 15px;
@@ -186,50 +201,268 @@ form input, form select, form textarea, form .form-control {
   max-width: 100%;
   transition: all 0.3s ease;
 }
-/* line 165, ../sass/main.scss */
+/* line 177, ../sass/main.scss */
 .btn:hover {
   background-color: #6BC280;
   border-color: #6BC280;
 }
 
-/* line 170, ../sass/main.scss */
+/* line 182, ../sass/main.scss */
 .btn-primary {
   background-color: #E8901E;
   border-color: #E8901E;
 }
 
-/* line 174, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 footer {
   background-color: #f2f2f2;
   padding: 20px 0;
   color: #ccc;
 }
-/* line 178, ../sass/main.scss */
+/* line 190, ../sass/main.scss */
 footer hr {
   border-color: #ccc;
 }
 
-/* line 183, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 section.login {
   margin-top: 30px;
 }
-/* line 185, ../sass/main.scss */
+/* line 197, ../sass/main.scss */
 section.login form {
   width: 400px;
   max-width: 100%;
   margin: 0 auto 100px;
 }
-/* line 189, ../sass/main.scss */
+/* line 201, ../sass/main.scss */
 section.login form h3 {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 193, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 section.login form p {
   text-align: center;
   color: #ccc;
 }
-/* line 197, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 section.login form button {
   width: 100%;
+}
+
+/* line 215, ../sass/main.scss */
+.menu-active .navbar-header .menu-anchor {
+  display: inline-block;
+}
+/* line 218, ../sass/main.scss */
+.menu-active .navbar-header .menu-anchor span:nth-child(1) {
+  top: 11px !important;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+/* line 226, ../sass/main.scss */
+.menu-active .navbar-header .menu-anchor span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+/* line 231, ../sass/main.scss */
+.menu-active .navbar-header .menu-anchor span:nth-child(3) {
+  top: 11px !important;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/* line 240, ../sass/main.scss */
+button.menu-anchor {
+  display: none;
+  width: 40px;
+  height: 30px;
+  margin: 10px 20px 0 0;
+  position: relative;
+  float: right;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+/* line 260, ../sass/main.scss */
+button.menu-anchor span {
+  outline: none;
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  background-color: #fff;
+}
+/* line 278, ../sass/main.scss */
+button.menu-anchor span:nth-child(1) {
+  top: 0;
+}
+/* line 282, ../sass/main.scss */
+button.menu-anchor span:nth-child(2) {
+  top: 12px;
+}
+/* line 286, ../sass/main.scss */
+button.menu-anchor span:nth-child(3) {
+  top: 25px;
+}
+
+/* line 292, ../sass/main.scss */
+.nav-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 220px;
+  height: 100%;
+  padding: 20px 0 20px 5px;
+  margin: 0;
+  background-color: #497F46;
+  box-shadow: inset 7px 0 10px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateX(220px);
+  -moz-transform: translateX(220px);
+  -ms-transform: translateX(220px);
+  transform: translateX(220px);
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+/* line 312, ../sass/main.scss */
+.nav-menu ul {
+  padding: 0;
+  list-style: none;
+}
+/* line 315, ../sass/main.scss */
+.nav-menu ul li {
+  display: block;
+  margin: 0 10px;
+  padding: 10px;
+}
+/* line 319, ../sass/main.scss */
+.nav-menu ul li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* line 327, ../sass/main.scss */
+main, header {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+/*
+     Com a classe menu-active na tag HTML
+*/
+/* line 1637, ../sass/app.scss */
+/* line 342, ../sass/main.scss */
+.menu-active .menu-anchor span:nth-child(1) {
+  top: 11px !important;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+/* line 350, ../sass/main.scss */
+.menu-active .menu-anchor span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+/* line 355, ../sass/main.scss */
+.menu-active .menu-anchor span:nth-child(3) {
+  top: 11px !important;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/* line 364, ../sass/main.scss */
+.menu-active .nav-menu {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/* line 1663, ../sass/app.scss */
+/* line 371, ../sass/main.scss */
+.menu-active main,
+.menu-active header {
+  -webkit-transform: translateX(-220px);
+  -moz-transform: translateX(-220px);
+  -ms-transform: translateX(-220px);
+  transform: translateX(-220px);
+}
+
+@media (max-width: 800px) {
+  /* line 380, ../sass/main.scss */
+  #navbar {
+    display: none !important;
+  }
+
+  /* line 383, ../sass/main.scss */
+  .navbar-header {
+    width: 100%;
+  }
+
+  /* line 386, ../sass/main.scss */
+  button.menu-anchor {
+    display: inline-block;
+  }
+}
+@media (max-width: 486px) {
+  /* line 392, ../sass/main.scss */
+  .part.destaque h1 {
+    font-size: 45px;
+  }
+
+  /* line 395, ../sass/main.scss */
+  button.menu-anchor {
+    margin-right: 0;
+  }
+}
+@media (max-width: 375px) {
+  /* line 401, ../sass/main.scss */
+  .part.destaque {
+    padding: 70px 0;
+  }
+
+  /* line 404, ../sass/main.scss */
+  .part.destaque h1 {
+    font-size: 35px;
+  }
+
+  /* line 407, ../sass/main.scss */
+  h3 {
+    font-size: 18px;
+  }
 }
