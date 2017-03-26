@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+/* line 3, ../sass/main.scss */
+body {
+  padding: 0;
+  margin: 80px 0 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 9, ../sass/main.scss */
+header {
+  position: relative;
+}
+/* line 11, ../sass/main.scss */
+header .navbar-default {
+  background-color: #497F46;
+  border: none;
+  padding: 15px 0px;
+}
+/* line 15, ../sass/main.scss */
+header .navbar-default .navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+/* line 18, ../sass/main.scss */
+header .navbar-default .navbar-brand img {
+  height: 100%;
+}
+/* line 24, ../sass/main.scss */
+header .navbar-default .navbar-nav li a {
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 29, ../sass/main.scss */
+header .navbar-default .navbar-nav li.active a {
+  background-color: transparent;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* line 40, ../sass/main.scss */
+.part {
+  min-height: 300px;
+  background-color: #ccc;
+}
+/* line 43, ../sass/main.scss */
+.part.destaque {
+  padding: 150px 0;
+  text-align: center;
+  background-image: url("../img/bg-feira.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 50, ../sass/main.scss */
+.part.destaque .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #99a299;
+  opacity: 0.9;
+  z-index: 1;
+}
+/* line 60, ../sass/main.scss */
+.part.destaque .container {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+}
+/* line 66, ../sass/main.scss */
+.part.destaque h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 55px;
+}
+/* line 71, ../sass/main.scss */
+.part.destaque h3 {
+  width: 700px;
+  max-width: 100%;
+  margin: 15px auto;
+}
+/* line 77, ../sass/main.scss */
+.part.sobre {
+  padding: 70px 0;
+  background-color: #f2f2f2;
+}
+/* line 80, ../sass/main.scss */
+.part.sobre h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* line 86, ../sass/main.scss */
+.part.patrocinadores {
+  background-color: #f2f2f2;
+  padding: 70px 0;
+}
+/* line 89, ../sass/main.scss */
+.part.patrocinadores h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* line 96, ../sass/main.scss */
+.part.cadastro h3 {
+  text-transform: uppercase;
+}
+/* line 99, ../sass/main.scss */
+.part.cadastro p {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto 20px 0;
+}
+/* line 104, ../sass/main.scss */
+.part.cadastro .feirante {
+  background-color: #90A88F;
+}
+/* line 106, ../sass/main.scss */
+.part.cadastro .feirante .box {
+  padding: 100px 15px;
+}
+/* line 108, ../sass/main.scss */
+.part.cadastro .feirante .box p {
+  text-align: right;
+  margin: 0 0 20px auto;
+}
+/* line 115, ../sass/main.scss */
+.part.cadastro .interessado .box {
+  padding: 100px 15px;
+}
+
+/* line 122, ../sass/main.scss */
+section.mapa iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+/* line 127, ../sass/main.scss */
+.img-responsive {
+  max-width: 100%;
+}
+
+/* line 131, ../sass/main.scss */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  color: #ccc;
+}
+/* line 135, ../sass/main.scss */
+footer hr {
+  border-color: #ccc;
+}
