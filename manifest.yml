@@ -1,0 +1,4 @@
+applications:
+ - name: bemobluehack
+   random-route: true
+   memory: 128M

@@ -45,9 +45,9 @@
 			<section class="mapa">
 				<div class="container-fluid">
 						<div class="row">
-							<div class="col-sm-3 col-xs-12">
+							<div class="col-sm-4 col-xs-12">
 								<h3>Mapa de Feiras</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+								<p>Aqui você pode procurar por pontos mais próximos de distribuição de alimentos.</p>
 								<form id="search-map" action="#" method="post">
 									<div class="form-group">
 										<label for="">Buscar por CEP</label>
@@ -62,15 +62,10 @@
 										<input type="text" name="cpf" value="" class="form-control">
 									</div>
 									<button type="submit" class="btn btn-primary pull-right">Pesquisar</button>
-									<div class="clearfix">
-
-									</div>
+									<div class="clearfix"></div>
 								</form>
 							</div>
-							<div class="col-sm-9 col-xs-12 mapa-iframe">
-								<div class="row">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14626.707154428448!2d-46.6492849!3d-23.580049!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb148aad01b411ba7!2sIBM+Brasil!5e0!3m2!1spt-BR!2sus!4v1490504767543" frameborder="0" style="border:0" allowfullscreen></iframe>
-								</div>
+							<div class="col-sm-8 col-xs-12 mapa-iframe">
 							</div>
 						</div>
 				</div>

@@ -4,7 +4,7 @@
 		<!-- Metadados -->
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>BEMO - be more</title>
+		<title>BEMO - Be More!</title>
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="stylesheets/main.css" type="text/css"/>
@@ -46,19 +46,15 @@
 				<div class="overlay">
 				</div>
 				<div class="container">
-					<h1>Lorem ipsum dolor sit amet</h1>
-					<h3>descrição rapida do negocio, falando umas coisas legais mas sem enrolar muito hehe lorem ipsum</h3>
+					<h1>Vamos mudar a realidade</h1>
+					<h3>Não é porque a fruta está feia que ela deve ser jogada fora</h3>
 				</div>
 			</section>
 			<section class="part sobre">
 				<div class="container">
 					<div class="col-sm-8">
-						<h2>Frase curta sobre a ideia</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-							 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-							  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-								fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-								mollit anim id est laborum.</p>
+						<h2>FEIRA SUSTENTÁVEL NÃO JOGA COMIDA BOA FORA</h2>
+						<p>Em uma feira livre em média são jogados 500Kg de alimentos fora, queremos mudar esta realidade! Feirante envie estes alimentos para ongs cadastradas.</p>
 					</div>
 					<div class="col-sm-4">
 						<img src="img/icon-bemo-verde.png" alt="" class="img-responsive"/>
@@ -70,20 +66,16 @@
 					<div class="row">
 						<div class="col-sm-6 text-right feirante">
 							<div class="box">
-								<h3>frase para o feirante</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-									<a href="#" class="btn btn-primary">Cadastro de Fornecedor</a>
+								<h3>Contribua</h3>
+								<p>Feirante, cadastre-se no site e tenha a oportunidade de colaborar e reduzir o desperdicio de seus alimentos e diminuir suas perdas.</p>
+									<a href="cadastroFeirante.php" target="_blank" class="btn btn-primary">Cadastro de Fornecedor</a>
 							</div>
 						</div>
 						<div class="col-sm-6 interessado">
 							<div class="box">
-								<h3>frase para o interessado</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-									<a href="#" class="btn btn-primary">Cadastro de interessado</a>
+								<h3>Receba</h3>
+								<p>ONGs, creches,e outras instituições do terceiro setor, cadastre-se, contribua, e encontre a feira mais proxima de você para receber que podem ser utilizados na data da compra. </p>
+									<a href="cadastroInteressado.php" target="_blank" class="btn btn-primary">Cadastro de interessado</a>
 							</div>
 						</div>
 					</div>
@@ -92,7 +84,7 @@
 			<section class="part patrocinadores">
 				<div class="container">
 					<div class="col-xs-12">
-						<h2>Patrocinadores</h2>
+						<h2>Apoiadores</h2>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12">
 						<img src="img/logo-example.jpg" class="img-responsive" />

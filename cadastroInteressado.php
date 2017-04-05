@@ -58,15 +58,6 @@
 								<input type="text" name="endereco" class="form-control" value="">
 							</div>
 							<div class="form-group">
-								<label for="feira">Feira</label>
-								<select id="feira" class="form-control" name="feira">
-									<option value="" disabled selected>Selecione uma opção</option>
-									<option value="">Feira 1</option>
-									<option value="">Feira 2</option>
-									<option value="">Feira 3</option>
-								</select>
-							</div>
-							<div class="form-group">
 								<label for="email">Email</label>
 								<input type="text" name="email" class="form-control" value="">
 							</div>
@@ -85,14 +76,11 @@
 							<div class="clearfix"></div>
 					</div>
 					<div class="col-sm-4">
-						<p class="desc-form">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
+						<p class="desc-form">Cadastre sua instituição educacional ou ONG para acharmos o fornecedor mais próximo de seu endereço e facilitar a retirada dos produtos doados.</p>
 						<ul>
-							<li> Lorem Ipsum dolor sit</li>
-							<li> Lorem Ipsumdolor </li>
-							<li> Lorem Ipsumdolor sit</li>
-							<li> Lorem Ipdolor sit</li>
+							<li> Fica informado sobre os pontos de distribuição de alimentos</li>
+							<li> Evita desperdicio de comida </li>
+							<li> Reduz lixo da cidade</li>
 						</ul>
 					</div>
 				</div>

@@ -86,14 +86,11 @@
 						</form>
 					</div>
 					<div class="col-sm-4">
-							<p class="desc-form">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
+							<p class="desc-form">Feirantes interessados em doar verduras, legumas e frutas "feias" poderão requerer o seu cadastro como fornecedores. Poderão se cadastrar pessoas físicas ou jurídicas, que atendam aos requisitos descritos nas resoluções da Anvisa.</p>
 							<ul>
-								<li> Lorem Ipsum dolor sit</li>
-								<li> Lorem Ipsumdolor </li>
-								<li> Lorem Ipsumdolor sit</li>
-								<li> Lorem Ipdolor sit</li>
+								<li> Evita desperdicio de alimentos</li>
+								<li> Colabora contra desnutrição</li>
+								<li> Reduz lixo da cidade</li>
 							</ul>
 					</div>
 				</div>
